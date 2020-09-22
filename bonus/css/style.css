@@ -116,6 +116,21 @@ aside {
   width: 20%;
 }
 
+#leftbox {
+  color:green;
+}
+
+#leftbox img {
+  width: 20px;
+  float:left
+}
+
+#leftbox  h2 {
+
+  float:left;
+  margin-left: 5px;
+}
+
 section {
 
   float: left;
@@ -165,7 +180,7 @@ footer {
 
   display:block;
   margin:auto;
-  max-width: 50%;
+  max-width: 50%; 
   max-height: 50%;
   margin-top: 20px;
 
