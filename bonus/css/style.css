@@ -15,6 +15,7 @@
 body {
 
   background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -28,10 +29,7 @@ body {
 #container {
   width: 60%;
   margin: 10px auto;
-  /* debug *
-  height: 200px;
-  background-color: red;
-  /* fine debug */
+
 }
 
 /* header */
@@ -40,32 +38,71 @@ header {
 
 }
 
+/* banner e specifiche  */
+
+.logo {
+
+  position: relative;
+  width: 100%;
+  height: 300px;
+
+}
+
 .logo img{
 
   width: 100%;
   height: 300px;
   background-size: cover;
+  border: 10px solid white;
+
 }
+
+.logotext {
+
+  position:absolute;
+  top: 0;
+  font-size: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Arial;
+  color:white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+#subtitle {
+
+font-size: 30px;
+margin-top: 90px;
+}
+
+
+/* menu e specifiche */
 
 .menu {
 
   height: 50px;
   background-color: #404040;
+  border-radius: 5px;
 
 }
 
 ul {
 
-  text-align: center; 
+  text-align: center;
   line-height: 50px;
 }
 
 ul a {
 
   color:white;
-  margin-left:10px;
-  margin-right: 10px;
-  font-size: 20px;
+  margin-left:5px;
+  margin-right: 5px;
+  font-size: 15px;
   font-family: Verdana, Arial;
   text-decoration: none;
 
@@ -74,25 +111,21 @@ ul a {
 /* parte principale */
 
 aside {
+
   float: left;
   width: 20%;
-  /* debug
-  height: 200px;
-  background-color: lightblue;
-  /* fine debug */
 }
 
 section {
+
   float: left;
   width: 50%;
   margin: 0 5%;
-  /* debug
-  height: 400px;
-  background-color: blue;
-  /* fine debug */
+
 }
 
 .box {
+
   background-color: white;
   border-radius: 5px;
   padding: 10px;
@@ -101,10 +134,14 @@ section {
   color: black;
 }
 
+h2 {
+  margin-bottom: 40px;
+}
+
 /* footer */
 footer {
-  /* debug */
+
   height: 100px;
   background-color: white;
-  /* fine debug */
+
 }
