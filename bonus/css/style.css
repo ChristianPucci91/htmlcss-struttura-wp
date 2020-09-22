@@ -17,6 +17,7 @@ body {
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .clearfix::after {
@@ -29,8 +30,8 @@ body {
 #container {
   width: 60%;
   margin: 10px auto;
-
 }
+
 
 /* header */
 header {
@@ -60,24 +61,28 @@ header {
 .logotext {
 
   position:absolute;
-  top: 0;
   font-size: 100px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Verdana, Arial;
   color:white;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
 }
 
+#trademark {
+
+  font-size: 30px;
+  margin-left:170px;
+
+}
+
+
 #subtitle {
 
-font-size: 30px;
-margin-top: 90px;
+font-size: 40px;
+margin-top: 60px;
 }
 
 
@@ -88,16 +93,12 @@ margin-top: 90px;
   height: 50px;
   background-color: #404040;
   border-radius: 5px;
-
-}
-
-ul {
-
   text-align: center;
   line-height: 50px;
+
 }
 
-ul a {
+.menu a {
 
   color:white;
   margin-left:5px;
@@ -180,7 +181,7 @@ footer {
 
   display:block;
   margin:auto;
-  max-width: 50%; 
+  max-width: 50%;
   max-height: 50%;
   margin-top: 20px;
 
