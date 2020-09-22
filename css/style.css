@@ -1,4 +1,5 @@
 /* regole generali  */
+
 *{
   margin:0;
   padding:0;
@@ -14,60 +15,49 @@
 /* pagina */
 #container {
 
-  margin:15px;
-  /* debug */
-  /* height: 800px; */
-  /* background: red; */
-  /* fine debug */
+  margin:20px;
+
 }
 
 /* header */
 .yellowbox {
+
   margin-bottom: 10px;
-  /* debug */
-  height:200px;
+  height:250px;
   background: yellow;
-  /* fine debug */
+
 }
 
 /* parte principale */
 
-main {
-/* debug */
-/* background: black; */
-/* fine debug */
-}
-
 .violetbox {
+
   float:left;
-  width: 20%;
-  /* debug */
-  height: 300px;
+  width: 25%;
+  height: 400px;
   background: violet;
-  /* fine debug */
+
 }
 
 #violet-small-box {
-  height: 200px;
+
+  height: 290px;
   margin-bottom: 30px;
 }
 
 .purplebox {
 
 float:left;
-width: 50%; 
-margin:0 5%;
-/* debug */
-height: 450px;
+width: 46%;
+margin:0 2%;
+height: 650px;
 background: purple;
-/* fine debug */
 }
 
+/* footer */
 .lightbluebox {
 
-  /* debug */
   margin-top: 10px;
-  height: 100px;
+  height: 150px;
   background: lightblue;
-  /* fine debug */
 }
