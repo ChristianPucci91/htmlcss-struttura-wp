@@ -1,0 +1,84 @@
+/* regole generali */
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+
+  background-image: url("../img/background3.jpg");
+  /* background-size: cover; */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* pagina */
+#container {
+  width: 60%;
+  margin: 10px auto;
+  /* debug *
+  height: 200px;
+  background-color: red;
+  /* fine debug */
+}
+
+/* header */
+header {
+  margin-bottom: 20px;
+
+}
+
+.logo{
+
+background-size: contain;
+}
+
+/* parte principale */
+
+aside {
+  float: left;
+  width: 20%;
+  /* debug
+  height: 200px;
+  background-color: lightblue;
+  /* fine debug */
+}
+
+section {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+  /* debug
+  height: 400px;
+  background-color: blue;
+  /* fine debug */
+}
+
+.box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: black;
+}
+
+/* footer */
+footer {
+  /* debug */
+  height: 100px;
+  background-color: white;
+  /* fine debug */
+}
