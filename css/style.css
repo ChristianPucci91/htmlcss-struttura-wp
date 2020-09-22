@@ -55,7 +55,7 @@ main {
 .purplebox {
 
 float:left;
-width: 50%;
+width: 50%; 
 margin:0 5%;
 /* debug */
 height: 450px;
