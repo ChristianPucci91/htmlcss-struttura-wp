@@ -14,7 +14,7 @@
 /* pagina */
 #container {
 
-  margin:10px;
+  margin:15px;
   /* debug */
   /* height: 800px; */
   /* background: red; */
@@ -22,8 +22,8 @@
 }
 
 /* header */
-header {
-  margin-bottom: 5px;
+.yellowbox {
+  margin-bottom: 10px;
   /* debug */
   height:200px;
   background: yellow;
@@ -31,37 +31,42 @@ header {
 }
 
 /* parte principale */
+
 main {
-   margin-bottom: 5px;
 /* debug */
 /* background: black; */
 /* fine debug */
-
 }
 
-aside{
+.violetbox {
   float:left;
   width: 20%;
   /* debug */
-  height: 400px;
+  height: 300px;
   background: violet;
   /* fine debug */
 }
 
-section {
+#violet-small-box {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.purplebox {
 
 float:left;
 width: 50%;
 margin:0 5%;
 /* debug */
-height: 400px;
+height: 450px;
 background: purple;
 /* fine debug */
 }
 
-footer {
+.lightbluebox {
 
   /* debug */
+  margin-top: 10px;
   height: 100px;
   background: lightblue;
   /* fine debug */
