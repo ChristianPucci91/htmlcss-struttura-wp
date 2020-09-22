@@ -5,12 +5,64 @@
   box-sizing:border-box;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
 /* pagina */
 #container {
 
   margin:10px;
   /* debug */
-  height: 800px;
-  background: red;
+  /* height: 800px; */
+  /* background: red; */
+  /* fine debug */
+}
+
+/* header */
+header {
+  margin-bottom: 5px;
+  /* debug */
+  height:200px;
+  background: yellow;
+  /* fine debug */
+}
+
+/* parte principale */
+main {
+   margin-bottom: 5px;
+/* debug */
+/* background: black; */
+/* fine debug */
+
+}
+
+aside{
+  float:left;
+  width: 20%;
+  /* debug */
+  height: 400px;
+  background: violet;
+  /* fine debug */
+}
+
+section {
+
+float:left;
+width: 50%;
+margin:0 5%;
+/* debug */
+height: 400px;
+background: purple;
+/* fine debug */
+}
+
+footer {
+
+  /* debug */
+  height: 100px;
+  background: lightblue;
   /* fine debug */
 }
